@@ -1,0 +1,11 @@
+.scratch/
+.playwright-mcp/
+*.png
+__pycache__/
+# internal: notes, map, research, agent instructions — stay local
+docs/
+AGENTS.md
+CLAUDE.md
+.DS_Store
+node_modules/
+!assets/*.png

@@ -1,0 +1,19 @@
+{
+  "name": "gamble-your-tokens",
+  "owner": { "name": "szarkans", "url": "https://github.com/szarkans" },
+  "description": "gamble your tokens",
+  "plugins": [
+    {
+      "name": "gamble",
+      "source": "./",
+      "description": "A joke casino: the tokens your AI agents burned today become chips. Slots, roulette, blackjack in a local browser tab. No real money.",
+      "version": "0.2.0",
+      "author": { "name": "szarkans", "url": "https://github.com/szarkans" },
+      "homepage": "https://github.com/szarkans/gamble-your-tokens",
+      "repository": "https://github.com/szarkans/gamble-your-tokens",
+      "license": "MIT",
+      "keywords": ["game", "casino", "tokens", "fun"],
+      "category": "entertainment"
+    }
+  ]
+}
