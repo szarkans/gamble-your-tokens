@@ -8,7 +8,8 @@
 
 <h2 align="center">what's this about?</h2>
 
-a joke casino for vibe coders. every token your AI agents burned today becomes a chip, 1:1 - and you can lose them all on slots, roulette and blackjack.
+you worked hard today, spent couple of millions of tokens - now gamble on 'em!  
+ every token your AI agents burned today becomes a chip, 1:1 - and you can lose them all on slots, roulette and blackjack.
 
 counts tokens from:
 
@@ -20,9 +21,9 @@ whatever is installed gets picked up. logs are read locally, nothing leaves your
 
 <h2 align="center">what's the point?</h2>
 
-none. you spent 40 million tokens today making the agent rename one variable - might as well watch them burn in style.
+imagine - your agents starts to rewrite all backend on rust which will take you 3 hours. you need to fill in the void. you need... to gamble your tokens! ~and fry your dophamine receptors lmao~
 
-no real money. nothing to buy, nothing to cash out, never will be. chips reset at midnight, your records don't. a win plays sounds, shakes the table and throws coins at you. a loss... you know how it feels already.
+just play fun casino game while your agents at work or spend it all at once at the end of the day!
 
 <h2 align="center">install</h2>
 
@@ -54,7 +55,7 @@ requirements: `python3`. no pip installs, no node, no dependencies. works on lin
 
 the window can be tiny - keep it next to your agent, the table and the spin button always fit.
 
-speaks english, russian, spanish, chinese, korean and japanese - picks your system language, switch it in the corner.
+<p align="center"><img src="assets/tiny_window.png" alt="gamble your tokens" width="720"></p>
 
 <h2 align="center">knobs</h2>
 
@@ -66,20 +67,10 @@ speaks english, russian, spanish, chinese, korean and japanese - picks your syst
 
 your agents' own `CLAUDE_CONFIG_DIR`, `CODEX_HOME` and `XDG_DATA_HOME` are respected. history of your days lives in `~/.local/share/token-gamble/history.json`.
 
-<h2 align="center">hacking on it</h2>
-
-```bash
-XDG_DATA_HOME=$PWD/.scratch/data python3 app/serve.py   # test spins stay out of your real history
-python3 app/test_serve.py
-node tools/i18n-check.mjs                               # every language has every string
-```
-
-plain html + js, no build step: `app/web/`. games in `app/web/games/`, translations in `app/web/lang/`. another harness = one line in `SOURCES` in `app/count_today.py`.
-
 <h2 align="center">license</h2>
 
 MIT. the pixel font is Press Start 2P under the SIL Open Font License, see [`licenses/`](licenses/).
 
 <h2 align="center">gambling is bad, m'kay</h2>
 
-real gambling ruins lives. this one only ruins your context window.
+real gambling ruins lives. better do it with this plugin - house always wins here too.
